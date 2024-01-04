@@ -22,7 +22,7 @@
   <ItemGroup Label="WrappedTaskItems" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <!-- ICI VOUS METTEZ LE NOM DU DRIVER -->
-    <TargetName>ProcTrace</TargetName>
+    <TargetName>HelloWorld</TargetName>
     <!-- /ICI VOUS METTEZ LE NOM DU DRIVER -->
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -46,7 +46,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <!-- ICI VOUS METTEZ LE(S) NOM(S) DU(DES) FICHIER(S) -->
-    <ClCompile Include="ProcTrace.c" />
+    <ClCompile Include="hello_world_driver_win64.c" />
     <!-- /ICI VOUS METTEZ LE(S) NOM(S) DU(DES) FICHIER(S) -->
   </ItemGroup>
   <ItemGroup>
